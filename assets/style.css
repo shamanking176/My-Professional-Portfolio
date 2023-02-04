@@ -71,3 +71,27 @@ body{
     border-left: 6px solid black;
     height: 1500px;
 }
+img{
+    border: 10px solid rgb(241, 101, 14);
+}
+.Pirate{
+    background-color: black;
+    position: absolute;
+    bottom: 133px;
+    left: 390px;
+    color: #ffffff;
+}
+.Git-img{
+    background-color: black;
+    position: absolute;
+    bottom: 133px;
+    left: 920px;
+    color: #ffffff;
+}
+.Unreal{
+    background-color: black;
+    position: absolute;
+    bottom: 133px;
+    left: 1390px;
+    color: #ffffff;
+}
