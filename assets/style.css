@@ -47,6 +47,7 @@ body{
     margin-left: 20px;
 }
 .about-me {
+    margin-top: 550px;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -81,7 +82,7 @@ body{
 }
 .selfie{
     position: absolute;
-    right: 50px;
+    left: 900px;
 }
 img{
     border: 10px solid var(--orange);
@@ -94,16 +95,16 @@ img{
     color: var(--white);
 }
 .Git{
-    background-color: var(--black);
+    
     position: absolute;
-    bottom: 462px;
+    bottom: -180px;
     left: 980px;
     color: var(--white);
 }
 .Unreal{
     background-color: var(--black);
     position: absolute;
-    bottom: 460px;
+    bottom: -90px;
     left: 1275px;
     color: var(--white);
 }
@@ -150,3 +151,28 @@ img{
     top: 0; 
     left: 0;
   }
+  h3{
+    position: absolute;
+    bottom:20px;
+    background-color: var(--black);
+
+    color: var(--white);
+  }
+@media (max-width:1415px) {
+    .selfie{
+        left: 600px;
+
+    }
+    .flex-container2{
+        display: flex;
+        flex-flow: column wrap;
+        float: right;
+        width: 50%;
+      }
+      .flex-container {
+        display: flex;
+        position: relative;
+        
+        width:50%;
+      }
+}
